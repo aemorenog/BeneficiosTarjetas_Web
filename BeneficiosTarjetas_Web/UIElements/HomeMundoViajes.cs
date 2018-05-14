@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BeneficiosTarjetas_Web
+namespace BeneficiosTarjetas_Web.UIElements
 {
-    class Program
+    class HomeMundoViajes
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }
