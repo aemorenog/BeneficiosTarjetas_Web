@@ -13,15 +13,15 @@ namespace BeneficiosTarjetas_Web
 
             try
             {
-                HBT.menuIngresaCuenta.Click();
+                HBT.MenuIngresaCuenta.Click();
                 Thread.Sleep(3000);
                 driver.Navigate().GoToUrl("http://www.beneficiostarjetas.cl");
                 Thread.Sleep(3000);
-                HBT.menuInformacionAyuda.Click();
+                HBT.MenuInformacionAyuda.Click();
                 Thread.Sleep(3000);
                 driver.Navigate().GoToUrl("http://www.beneficiostarjetas.cl");
                 Thread.Sleep(3000);
-                HBT.menuCarrodeCompra.Click();
+                HBT.MenuCarrodeCompra.Click();
                 Thread.Sleep(3000);
             }
             catch (NoSuchElementException e)

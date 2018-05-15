@@ -13,10 +13,6 @@ namespace BeneficiosTarjetas_Web
                 public static string correo = "pruebaingesmart@gmail.com";
                 public static string password = "123qwe";
             }
-
-            public static 
         }
-
-
     }
 }

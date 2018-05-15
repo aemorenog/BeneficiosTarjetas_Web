@@ -10,7 +10,6 @@ namespace BeneficiosTarjetas_Web.UIElements
             PageFactory.InitElements(driver, this);
         }
 
-
         ///<summary>Header Home BT</<summary>
         ///Ingresa a tu Cuenta
 
@@ -40,6 +39,22 @@ namespace BeneficiosTarjetas_Web.UIElements
         ///Botón Buscar
         [FindsBy(How = How.CssSelector, Using = "# search_mini_form > div > button")]
         public IWebElement BtnBuscarHomeBT { get; set; }
+
+        /// <summary>
+        /// Menu Mundos Beneficios Tarjetas
+        /// </summary>
+        
+        //Menu Mundo Viajes
+        [FindsBy(How = How.CssSelector, Using = "body > div > div > div.base.wrapper > section > div > div.row.pad-m > nav > ul > li.viajes_menu > a > span")]
+        public IWebElement MenuMundoViajes { get; set; }
+
+        //Menu Mundo Tienda
+        [FindsBy(How = How.CssSelector, Using = "body > div > div > div.base.wrapper > section > div > div.row.pad-m > nav > ul > li.viajes_menu > a > span")]
+        public IWebElement MenuMundoTienda { get; set; }
+
+        //Menu Mundo Descuentos
+        [FindsBy(How = How.CssSelector, Using = "body > div > div > div.base.wrapper > section > div > div.row.pad-m > nav > ul > li.viajes_menu > a > span")]
+        public IWebElement MenuMundoDescuento { get; set; }
 
 
     }
