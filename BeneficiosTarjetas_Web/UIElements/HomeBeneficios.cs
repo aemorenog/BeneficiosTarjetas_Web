@@ -48,6 +48,8 @@ namespace BeneficiosTarjetas_Web.UIElements
         [FindsBy(How = How.CssSelector, Using = "body > div > div > div.base.wrapper > section > div > div.row.pad-m > nav > ul > li.viajes_menu > a > span")]
         public IWebElement MenuMundoViajes { get; set; }
 
+
+
         //Menu Mundo Tienda
         [FindsBy(How = How.CssSelector, Using = "body > div > div > div.base.wrapper > section > div > div.row.pad-m > nav > ul > li.viajes_menu > a > span")]
         public IWebElement MenuMundoTienda { get; set; }
